@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lat2_AKB2_10116072_ZhafirahSakinahBaity</string>
+    <string name="doesntaccount">doesn\'t have account? <b> Register</b></string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="connectwithfb">CONNECT WITH FACEBOOK</string>
+    <string name="register">Register</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="email">Email</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="personal">Personal</string>
+    <string name="homeaddress">Home Address</string>
+    <string name="defaultlocation">Default Location</string>
+    <string name="bloodtype">Blood Type</string>
+    <string name="job">Job</string>
+    <string name="organization">Organization</string>
+    <string name="almosttherte">Almost There</string>
+    <string name="thankyou">Thank you for registering with us. One more\nstep, you need to check your email\nto active your account</string>
+    <string name="verify">Verify your Account</string>
+    <string name="verifyaccount">we have send verification code to your email</string>
+    <string name="send">SEND</string>
+    <string name="enter">enter verification code here</string>
+    <string name="doesntgetthecode">doesn\'t get the code  <b>Resend</b></string>
+</resources>

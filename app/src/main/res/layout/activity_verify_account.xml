@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    tools:context=".VerifyAccount">
+
+    <TextView
+        android:id="@+id/txt_verify_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:text="@string/verify"
+        android:textColor="@color/Background"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/txt_desc_verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_verify_account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/verifyaccount"
+        android:textColor="@color/Background" />
+
+    <EditText
+        android:id="@+id/edt_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_desc_verify"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@color/Background"
+        android:gravity="center"
+        android:hint="@string/enter"
+        android:paddingBottom="20dp"
+        android:textColor="@color/Background"
+        android:textColorHint="@color/Background"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/btn_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_verify"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_blue"
+        android:text="@string/send"
+        android:textColor="@color/Background"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_verify"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/doesntgetthecode"
+        android:textColor="@color/Background"
+        android:textSize="13sp"/>
+
+</RelativeLayout>
